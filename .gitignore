@@ -6,3 +6,4 @@ output/
 *.xvg
 *.csv
 !examples/*.csv
+!examples/*.xvg
