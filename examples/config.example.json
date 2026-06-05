@@ -1,0 +1,13 @@
+{
+  "global_clip": [0, 30],
+
+  "regions": [
+    {"t0": 0, "t1": 150, "amp": 0.6, "pts": 5,  "mode": "sin_noise"},
+    {"t0": 150, "t1": 170, "amp": 2.2, "pts": 4, "mode": "gaussian"},
+    {"t0": 170, "t1": 235, "amp": 0.4, "pts": 3, "mode": "gaussian"},
+    {"t0": 235, "t1": 260, "amp": 0.5, "pts": 3, "mode": "gaussian"},
+    {"t0": 260, "t1": 295, "amp": 0.5, "pts": 5,  "mode": "gaussian"},
+    {"t0": 295, "t1": 310, "amp": 0.8, "pts": 3,  "mode": "gaussian"},
+    {"t0": 310, "t1": 350, "amp": 0.6, "pts": 5, "mode": "spike"}
+  ]
+}
